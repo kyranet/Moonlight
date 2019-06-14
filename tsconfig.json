@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "./dist",
+        "target": "esnext",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "types": [
+            "discord.js",
+            "klasa",
+            "node",
+            "dotenv",
+            "veza"
+        ],
+        "noEmitOnError": true,
+        "strictNullChecks": true,
+        "declaration": true,
+        "importHelpers": false,
+        "tsBuildInfoFile": "./.cache/tsbuildinfo.json",
+        "incremental": true,
+        "listEmittedFiles": true,
+        "sourceMap": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src"
+    ]
+}
