@@ -4,7 +4,7 @@ import { NodeServerClient } from 'veza';
 export default class extends Event {
     public constructor(store: EventStore, file: string[], directory: string) {
         super(store, file, directory, {
-            event: 'client.identify',
+            event: 'client.ready',
             emitter: 'node'
         });
     }

@@ -16,7 +16,7 @@
         "dotenv": "^8.0.0",
         "fs-nextra": "^0.4.5",
         "klasa": "dirigeants/klasa#settings",
-        "veza": "^0.5.0"
+        "veza": "^0.6.0"
     },
     "devDependencies": {
         "@types/dotenv": "^6.1.1",
